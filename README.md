@@ -13,3 +13,24 @@ In order to extecute the code in the repository you'll need to install the follo
 * <a href="https://www.python.org/">Python 2.7</a>
 * <a href="http://scikit-learn.org/stable/">Scikit-learn</a>
 * <a href="http://pandas.pydata.org/">Pandas</a>
+
+## Documentation
+
+### Run
+Before starting with detection, you have to clean the raw data and extract the feature:
+```shell
+python TMDataset.py
+```
+Next you can build models: 
+```shell
+python TMDetection.py
+```
+## License
+This work is licensed under a MIT License.
+
+## Author
+This project has been developed at the University of Bologna with the effort of different people:
+
+* <a href="http://www.cs.unibo.it/~difelice/">Marco Di Felice</a>, Professor - email: marco.difelice3@unibo.it
+* <a href="http://vincenzolomonaco.com/">Vincenzo Lomonaco</a>, PhD Student - email: vincenzo.lomonaco@unibo.it
+* <a href="https://www.unibo.it/sitoweb/luca.bedogni4">Luca Bedogni</a>, Research Associate - email: luca.bedogni4@unibo.it
