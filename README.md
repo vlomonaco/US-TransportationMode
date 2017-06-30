@@ -18,7 +18,115 @@ In order to extecute the code in the repository you'll need to install the follo
 ### Code
 In this section we show the functionalities developed in our work and the relative parameters used.
 #### Function
-list of function and their relative parameters explanation (one row to function)
+<table>
+<thead>
+<th>Function name</th>
+<th>Parameter</th>
+<th>Description</th>
+</thead>
+<tbody>
+<tr>
+<td>clean_file()</td>
+<td></td>
+<td>
+Fix original raw files problems: 
+<ul>
+<li>delete measure from  **sensor_to_exclude</li>
+<li>if **sound** or **speed** measure rows have negative time, use module</li>
+<li>if **time** have incorrect values ("/", ">", "<", "-", "_"...), delete file</li>
+<li>if file is empty, delete file</li> 
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>transform_raw_data()</td>
+<td></td>
+<td>Transform sensor raw data in orientation independent data (with magnitude metric)</td>
+</tr>
+
+<tr>
+<td>__fill_data_structure</td>
+<td></td>
+<td>Fill tm, users, sensors data structures with the relative data from dataset</td>
+</tr>
+
+<tr>
+<td>__range_position_in_header_with_features(sensor_name)</td>
+<td>sensor_name: name of the sensor</td>
+<td>Return position of input sensor in header with features</td>
+</tr>
+
+<tr>
+<td>create_header_files()</td>
+<td></td>
+<td>Fill directory with all file consistent with the header without features</td>
+</tr>
+
+<tr>
+<td>__create_time_files()</td>
+<td></td>
+<td>Fill directory with all file consistent with the featured header divided in time window</td>
+</tr>
+
+<tr>
+<td>__create_dataset()</td>
+<td></td>
+<td>Create dataset file</td>
+</tr>
+
+<tr>
+<td>__split_dataset()</td>
+<td></td>
+<td>Split passed dataframe into test and train</td>
+</tr>
+
+<tr>
+<td>preprocessing_files()</td>
+<td></td>
+<td>Clean files and transform in orientation independent</td>
+</tr>
+
+<tr>
+<td>analyze_sensors_support()</td>
+<td></td>
+<td>For each sensors analyze user support, put support result in sensor_support.csv [sensor,nr_user,list_users,list_classes]</td>
+</tr>
+
+<tr>
+<td>create_balanced_dataset(sintetic)</td>
+<td>sintetic: set if data are sintentic or not. Default the value is <strong>False</strong>.</td>
+<td>Analyze dataset composition in term of class and user contribution fill balance_time with minimum number of window for transportation mode</td>
+</tr>
+
+<tr>
+<td>get_excluded_sensors(sensor_set)</td>
+<td>sensor_set:</td>
+<td>Return list of excluded sensor based on the correspondent classification level</td>
+</tr>
+
+<tr>
+<td>get_remained_sensors(sensor_set)</td>
+<td>sensor_set:</td>
+<td>Return list of considered sensors based on the correspondent classification level</td>
+</tr>
+
+<tr>
+<td>get_sensors_set_features()</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>get_sensor_features()</td>
+<td></td>
+<td></td>
+</tr>
+
+</tbody>
+</table>
+
+
 ### Run
 Before starting with detection, you have to clean the raw data and extract the feature:
 ```shell
