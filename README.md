@@ -15,7 +15,10 @@ In order to extecute the code in the repository you'll need to install the follo
 * <a href="http://pandas.pydata.org/">Pandas</a>
 
 ## Documentation
-
+### Code
+In this section we show the functionalities developed in our work and the relative parameters used.
+#### Function
+list of function and their relative parameters explanation (one row to function)
 ### Run
 Before starting with detection, you have to clean the raw data and extract the feature:
 ```shell
@@ -25,6 +28,9 @@ Next you can build models:
 ```shell
 python TMDetection.py
 ```
+### Project Structure
+Up to now the projects is structured as follows:
+
 ## License
 This work is licensed under a MIT License.
 
