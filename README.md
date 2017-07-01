@@ -17,8 +17,6 @@ In order to extecute the code in the repository you'll need to install the follo
 ## Documentation
 ### Code
 In this section we show the functionalities developed in our work and the relative parameters used.
-#### Function
-
 #### TMDataset.py
 <table>
 <thead>
