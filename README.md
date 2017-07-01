@@ -1,7 +1,7 @@
 # US-TransportationMode
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-<a href="https://www.python.org/"><img src="https://camo.githubusercontent.com/65bf37ffbdcaef2a2cb000f66e2f395b32243357/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6275696c64253230776974682d707974686f6e322e372d7265642e737667" alt="built with Python2.7" data-canonical-src="https://img.shields.io/badge/build%20with-python2.7-red.svg" style="max-width:100%;"></a>
+[![built with Python2.7](https://camo.githubusercontent.com/65bf37ffbdcaef2a2cb000f66e2f395b32243357/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6275696c64253230776974682d707974686f6e322e372d7265642e737667)](https://www.python.org/)
 
 **US-Transporation** is the name of our dataset that contains sensor data from over 13 users. In light of the lack in the literature of a common benchmark for TMD, we have collected a large set of measurements belonging to different subjects and through a simple Android Application. We openly release the dataset, so that other researchers can benefit from it for further improvements and research reproducibility.<br>
 Our dataset is built from people of different gender, age and occupation. Moreover, we do not impose any restriction on the use of the application, hence every user records the data performing the action as she/he is used to, in order to assess real world conditions. <br>
@@ -10,14 +10,16 @@ You can find more information about the dataset and our work at: http://cs.unibo
 
 ## Dependecies
 In order to extecute the code in the repository you'll need to install the following dependencies:
-* <a href="https://www.python.org/">Python 2.7</a>
-* <a href="http://scikit-learn.org/stable/">Scikit-learn</a>
-* <a href="http://pandas.pydata.org/">Pandas</a>
+* [Python 2.7](https://www.python.org/)
+* [Scikit-learn](http://scikit-learn.org/stable/)
+* [Pandas](http://pandas.pydata.org/)
 
 ## Documentation
 ### Code
 In this section we show the functionalities developed in our work and the relative parameters used.
 #### Function
+
+#### TMDataset.py
 <table>
 <thead>
 <th>Function name</th>
@@ -31,8 +33,8 @@ In this section we show the functionalities developed in our work and the relati
 <td>
 Fix original raw files problems: 
 <ul>
-<li>delete measure from  **sensor_to_exclude</li>
-<li>if **sound** or **speed** measure rows have negative time, use module</li>
+<li>delete measure from  <strong>sensor_to_exclude</strong></li>
+<li>if <strong>sound</strong> or <strong>speed</strong> measure rows have negative time, use module</li>
 <li>if **time** have incorrect values ("/", ">", "<", "-", "_"...), delete file</li>
 <li>if file is empty, delete file</li> 
 </ul>
@@ -101,31 +103,89 @@ Fix original raw files problems:
 
 <tr>
 <td>get_excluded_sensors(sensor_set)</td>
-<td>sensor_set:</td>
+<td>sensor_set: type of sensor dataset used with different sensor data.</td>
 <td>Return list of excluded sensor based on the correspondent classification level</td>
 </tr>
 
 <tr>
 <td>get_remained_sensors(sensor_set)</td>
-<td>sensor_set:</td>
+<td>sensor_set: type of sensor dataset used with different sensor data.</td>
 <td>Return list of considered sensors based on the correspondent classification level</td>
 </tr>
 
 <tr>
 <td>get_sensors_set_features()</td>
 <td></td>
-<td></td>
+<td>Return list of the sensors set with their features</td>
 </tr>
 
 <tr>
-<td>get_sensor_features()</td>
-<td></td>
-<td></td>
+<td>get_sensor_features(sensor)</td>
+<td>sensor: data of a specific sensor</td>
+<td>Return the features of a specific sensor</td>
 </tr>
 
 </tbody>
 </table>
 
+#### TMDetection.py
+
+<table>
+<thead>
+<th>Function name</th>
+<th>Parameter</th>
+<th>Description</th>
+</thead>
+<tbody>
+
+<tr>
+<td>decision_tree(sensors_set)</td>
+<td>sensor_set: type of sensor dataset used with different sensor data</td>
+<td>Decision tree algorithm training on training al train set and test on all test set</td>
+</tr>
+
+<tr>
+<td>random_forest(sensors_set)</td>
+<td>sensor_set: type of sensor dataset used with different sensor data</td>
+<td>Random forest algorithm training on training al train set and test on all test set</td>
+</tr>
+
+<tr>
+<td>neural_network(sensors_set)</td>
+<td>sensor_set: type of sensor dataset used with different sensor data</td>
+<td>Neural network algorithm training on training al train set and test on all test set</td>
+</tr>
+
+<tr>
+<td>support_vector_machine(sensors_set)</td>
+<td>sensor_set: type of sensor dataset used with different sensor data</td>
+<td>Support vector machine algorithm training on training al train set and test on all test set</td>
+</tr>
+
+<tr>
+<td>classes_combination(sensors_set)</td>
+<td>sensor_set: type of sensor dataset used with different sensor data</td>
+<td>Use different algorithms changing target classes, try all combination of two target classes</td>
+</tr>
+<tr>
+<td>leave_one_subject_out(sensors_set)</td>
+<td>sensor_set: type of sensor dataset used with different sensor data</td>
+<td></td>
+</tr>
+<tr>
+<td>support_vector_machine(sensors_set)</td>
+<td>sensor_set: type of sensor dataset used with different sensor data</td>
+<td>Use different algorithms leaving one subject out from training and testing only on this subject considering all classes in dataset and only user classes</td>
+</tr>
+
+<tr>
+<td>single_sensor_accuracy()</td>
+<td></td>
+<td>Use feature relative to one sensor to build model and evaluate</td>
+</tr>
+
+</tbody>
+</table>
 
 ### Run
 Before starting with detection, you have to clean the raw data and extract the feature:
