@@ -1,0 +1,8 @@
+{
+	"name" : "GIORNALIERO",
+	"samples" : ["all"],
+	"activities" : [{"Train":"1300000"},{"Car":"1200000"}],
+	"repetition" : "n",
+	"_comment": " 'sample' : 'all' if you want to take data from all samples; duration in ms"
+}
+

@@ -1,0 +1,22 @@
+INFO:root:CLEANING FILES...
+INFO:root:  Delete: sensorfile_Luca_Bus_1467877458278.csv --- Time with incorrect values
+INFO:root:  Delete: sensorfile_andrea_Train_1480530298390.csv --- Time with incorrect values
+INFO:root:  Delete: sensorfile_Luca_Walking_1467913316731.csv --- Time with incorrect values
+INFO:root:  Delete: sensorfile_Luca_Walking_1467873082166.csv --- Time with incorrect values
+INFO:root:  Delete: sensorfile_Luca_Walking_1467908906985.csv --- Time with incorrect values
+INFO:root:  Delete: sensorfile_Luca_Train_1467874365472.csv --- Time with incorrect values
+INFO:root:  Delete: sensorfile_Luca_Walking_1469552905984.csv --- is Empty
+INFO:root:  Delete: sensorfile_Luca_Train_1469692323725.csv --- is Empty
+INFO:root:  Delete: sensorfile_Luca_Train_1468481920259.csv --- is Empty
+INFO:root:  Delete: sensorfile_Luca_Still_1467966144317.csv --- is Empty
+INFO:root:  Delete: sensorfile_Luca_Still_1469269143071.csv --- is Empty
+INFO:root:  Delete: sensorfile_Luca_Still_1469267354671.csv --- is Empty
+INFO:root:  Delete: sensorfile_Luca_Bus_1467965458071.csv --- is Empty
+INFO:root:  Delete: sensorfile_Luca_Walking_1468307037179.csv --- is Empty
+INFO:root:  Delete: sensorfile_Luca_Bus_1468483170759.csv --- is Empty
+INFO:root:  Tot files in Dataset : 260
+INFO:root:  Tot deleted files : 16
+INFO:root:  Remaining files : 244
+INFO:root:END CLEAN FILES
+INFO:root:TRANSFORMING RAW DATA...
+INFO:root:END TRANSFORMING RAW DATA...
