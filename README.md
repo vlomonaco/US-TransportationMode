@@ -196,7 +196,24 @@ python TMDetection.py
 ```
 ### Project Structure
 Up to now the projects is structured as follows:
-
+```unicode
+.
+├── TransportationData
+|   ├── datasetBalanced
+|         └── ...
+|   └── _RawDataOriginal
+|         └── ...
+├── README.md
+├── LICENSE
+├── const.py
+├── function.py
+├── TMDataset.py
+├── TMDetection.py
+├── util.py
+├── sintetic_dataset_generator.py
+├── sintetic_dataset_config.json
+└── cleanLog.log
+```
 ## License
 This work is licensed under a MIT License.
 
