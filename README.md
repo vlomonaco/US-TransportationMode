@@ -240,8 +240,8 @@ This project has been developed at the University of Bologna with the effort of 
 
 * <a href="http://www.cs.unibo.it/~difelice/">Marco Di Felice</a>, Associate Professor - email: marco.difelice3@unibo.it
 * <a href="http://www.cs.unibo.it/bononi/" target="_blank">Luciano Bononi</a>, Associate Professor - email : luciano.bononi@unibo.it
-* <a href="http://vincenzolomonaco.com/">Vincenzo Lomonaco</a>, PhD Student - email: vincenzo.lomonaco@unibo.it
 * <a href="https://www.unibo.it/sitoweb/luca.bedogni4">Luca Bedogni</a>, Research Associate - email: luca.bedogni4@unibo.it
+* <a href="http://vincenzolomonaco.com/">Vincenzo Lomonaco</a>, PhD Student - email: vincenzo.lomonaco@unibo.it
 * <a href="https://www.linkedin.com/in/matteo-cappella-30005b111/" target="_blank">Matteo Cappella</a> • Master student - email: matteo.cappella@studio.unibo.it
 * <a href="https://www.linkedin.com/in/simone-passaretti-397b23110/" target="_blank">Simone Passaretti</a> • Master student - email: simone.passaretti@studio.unibo.it
 ### Past collaborators
