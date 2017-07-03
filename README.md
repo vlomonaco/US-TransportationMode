@@ -13,10 +13,11 @@ You can find more information about the dataset and our work at: http://cs.unibo
 * **[Dependecies](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#dependecies)**
 * **[Documentation](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#documentation)**
   * **[Code](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#code)** 
-  * **[Get started](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#get_started)**
-  * **[Project Structure](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#project_structure)**
+  * **[Get started](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#get-started)**
+  * **[Project Structure](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#project-structure)**
 * **[License](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#license)**
-* **[Team of collaborators](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#team_of_collaborators)**
+* **[Team of collaborators](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#team-of-collaborators)**
+  * **[Other collaborators](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#other-collaborators)**
 
 ## Dependecies
 In order to extecute the code in the repository you'll need to install the following dependencies:
