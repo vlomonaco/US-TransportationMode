@@ -10,13 +10,13 @@ You can find more information about the dataset and our work at: http://cs.unibo
 
 # Menù
 
-* **Dependecies**
-* **Documentation**
-  * **Code** 
-  * **Get start**
-  * **Project Structure**
-* **License**
-* **Team of collaborators**
+* **[Dependecies](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#dependecies)**
+* **[Documentation](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#documentation)**
+  * **[Code](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#code)** 
+  * **[Get started](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#get_started)**
+  * **[Project Structure](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#project_structure)**
+* **[License](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#license)**
+* **[Team of collaborators](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#team_of_collaborators)**
 
 ## Dependecies
 In order to extecute the code in the repository you'll need to install the following dependencies:
@@ -195,7 +195,7 @@ Fix original raw files problems:
 </tbody>
 </table>
 
-### Get start
+### Get started
 Before starting, you must first download the data:
 ```shell
 python download_dataset.py
