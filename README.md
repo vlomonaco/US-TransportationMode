@@ -186,11 +186,16 @@ Fix original raw files problems:
 </table>
 
 ### Run
-Before starting with detection, you have to clean the raw data and extract the feature:
+Before starting, you must first download the data:
+```shell
+python download_dataset.py
+```
+Then you have to clean the raw data and extract the feature:
+
 ```shell
 python TMDataset.py
 ```
-Next you can build models: 
+Finally you can build models: 
 ```shell
 python TMDetection.py
 ```
@@ -212,6 +217,7 @@ Up to now the projects is structured as follows:
 ├── util.py
 ├── sintetic_dataset_generator.py
 ├── sintetic_dataset_config.json
+├── download_dataset.py
 └── cleanLog.log
 ```
 ## License
