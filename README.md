@@ -17,7 +17,6 @@ You can find more information about the dataset and our work at: http://cs.unibo
   * **[Project Structure](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#project-structure)**
 * **[License](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#license)**
 * **[Team of collaborators](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#team-of-collaborators)**
-  * **[Other collaborators](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#other-collaborators)**
 
 ## Dependecies
 In order to extecute the code in the repository you'll need to install the following dependencies:
@@ -210,6 +209,8 @@ Finally you can build models:
 ```shell
 python TMDetection.py
 ```
+For further and detail information about our code, see our [tutorial section](http://cs.unibo.it/projects/us-tm2017/tutorial.html)
+
 ### Project Structure
 Up to now the projects is structured as follows:
 ```unicode
@@ -243,5 +244,5 @@ This project has been developed at the University of Bologna with the effort of 
 * <a href="https://www.unibo.it/sitoweb/luca.bedogni4">Luca Bedogni</a>, Research Associate - email: luca.bedogni4@unibo.it
 * <a href="https://www.linkedin.com/in/matteo-cappella-30005b111/" target="_blank">Matteo Cappella</a> • Master student - email: matteo.cappella@studio.unibo.it
 * <a href="https://www.linkedin.com/in/simone-passaretti-397b23110/" target="_blank">Simone Passaretti</a> • Master student - email: simone.passaretti@studio.unibo.it
-### Other collaborators
+### Past collaborators
 * <a href="https://www.linkedin.com/in/claudiacarpineti/" target="_blank">Claudia Carpineti</a> • Master graduate student - email: claudia.carpineti@studio.unibo.it
