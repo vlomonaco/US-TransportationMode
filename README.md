@@ -8,6 +8,16 @@ Our dataset is built from people of different gender, age and occupation. Moreov
 In this page in addition to downloadable datasets, you can find Python's code for extracting features,and building machine learning models to make predictions. <br>
 You can find more information about the dataset and our work at: http://cs.unibo.it/projects/us-tm2017/index.html.
 
+# Menù
+
+* **Dependecies**
+* **Documentation**
+  * **Code** 
+  * **Get start**
+  * **Project Structure**
+* **License**
+* **Team of collaborators**
+
 ## Dependecies
 In order to extecute the code in the repository you'll need to install the following dependencies:
 * [Python 2.7](https://www.python.org/)
@@ -185,7 +195,7 @@ Fix original raw files problems:
 </tbody>
 </table>
 
-### Run
+### Get start
 Before starting, you must first download the data:
 ```shell
 python download_dataset.py
@@ -223,9 +233,14 @@ Up to now the projects is structured as follows:
 ## License
 This work is licensed under a MIT License.
 
-## Author
+## Team of collaborators
 This project has been developed at the University of Bologna with the effort of different people:
 
-* <a href="http://www.cs.unibo.it/~difelice/">Marco Di Felice</a>, Professor - email: marco.difelice3@unibo.it
+* <a href="http://www.cs.unibo.it/~difelice/">Marco Di Felice</a>, Associate Professor - email: marco.difelice3@unibo.it
+* <a href="http://www.cs.unibo.it/bononi/" target="_blank">Luciano Bononi</a>, Associate Professor - email : luciano.bononi@unibo.it
 * <a href="http://vincenzolomonaco.com/">Vincenzo Lomonaco</a>, PhD Student - email: vincenzo.lomonaco@unibo.it
 * <a href="https://www.unibo.it/sitoweb/luca.bedogni4">Luca Bedogni</a>, Research Associate - email: luca.bedogni4@unibo.it
+* <a href="https://www.linkedin.com/in/matteo-cappella-30005b111/" target="_blank">Matteo Cappella</a> • Master student - email: matteo.cappella@studio.unibo.it
+* <a href="https://www.linkedin.com/in/simone-passaretti-397b23110/" target="_blank">Simone Passaretti</a> • Master student - email: simone.passaretti@studio.unibo.it
+### Other collaborators
+* <a href="https://www.linkedin.com/in/claudiacarpineti/" target="_blank">Claudia Carpineti</a> • Master graduate student - email: claudia.carpineti@studio.unibo.it
