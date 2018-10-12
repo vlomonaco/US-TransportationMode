@@ -8,6 +8,16 @@ Our dataset is built from people of different gender, age and occupation. Moreov
 In this page in addition to downloadable datasets, you can find Python's code for extracting features,and building machine learning models to make predictions. <br>
 You can find more information about the dataset and our work at: http://cs.unibo.it/projects/us-tm2017/index.html.
 
+Please cite the paper below in your publications if it helps your research:
+
+    @article{carpineti18,
+      Author = {Claudia Carpineti, Vincenzo Lomonaco, Luca Bedogni, Marco Di Felice, Luciano Bononi},
+      Journal = {Proc. of the 14th Workshop on Context and Activity Modeling and Recognition (IEEE COMOREA 2018)},
+      Title = {Custom Dual Transportation Mode Detection by Smartphone Devices Exploiting Sensor Diversity},
+      Year = {2018}
+    }
+
+
 # Menù
 
 * **[Dependecies](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#dependecies)**
