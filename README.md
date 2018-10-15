@@ -17,6 +17,7 @@ Please cite the paper below in your publications if it helps your research:
       Year = {2018}
     }
 
+Pre-print version available here: https://arxiv.org/abs/1810.05596
 
 # Menù
 
