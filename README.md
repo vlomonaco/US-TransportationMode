@@ -15,9 +15,10 @@ Please cite the paper below in your publications if it helps your research:
       Journal = {Proc. of the 14th Workshop on Context and Activity Modeling and Recognition (IEEE COMOREA 2018)},
       Title = {Custom Dual Transportation Mode Detection by Smartphone Devices Exploiting Sensor Diversity},
       Year = {2018}
+      DOI = {https://doi.org/10.1109/PERCOMW.2018.8480119}
     }
 
-Pre-print version available here: https://arxiv.org/abs/1810.05596
+On-line version available here: https://ieeexplore.ieee.org/abstract/document/8480119
 
 # Menù
 

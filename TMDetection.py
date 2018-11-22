@@ -21,7 +21,7 @@ class TMDetection:
 
     def __init__(self):
         if not const.HAVE_DT:
-            self.dataset.create_balanced_dataset(const.SINTETIC_FILE_TRAINING)
+            self.dataset.create_balanced_dataset(const.SINTETIC_LEARNING)
         classes_dataset = self.dataset.get_dataset['target'].values
         print(classes_dataset)
         for i, c in enumerate(sorted(set(classes_dataset))):
@@ -316,8 +316,8 @@ class TMDetection:
 
 if __name__ == "__main__":
 	detection = TMDetection()
+	detection.decision_tree(1)
 
-#	detection.decision_tree(1)
 #	detection.decision_tree(2)
 #	detection.decision_tree(3)
 

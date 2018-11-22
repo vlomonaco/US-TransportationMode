@@ -744,7 +744,7 @@ class TMDataset:
         if len(self.users) == 0 or len(self.sensors) == 0 or len(self.tm) == 0:
             self.__fill_data_structure()
         print("START CREATE BALANCED DATASET....")
-
+	print(dir_src + "/" + file_src)
         df = pd.read_csv(dir_src + "/" + file_src)
         min_windows = df.shape[0]
 
@@ -834,4 +834,5 @@ class TMDataset:
 
 if __name__ == "__main__":
 	dataset = TMDataset()
+	dataset.preprocessing_files()
 	dataset.create_balanced_dataset()
