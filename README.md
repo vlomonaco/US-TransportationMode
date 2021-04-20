@@ -29,6 +29,7 @@ On-line version available here: https://ieeexplore.ieee.org/abstract/document/84
   * **[Project Structure](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#project-structure)**
 * **[License](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#license)**
 * **[Team of collaborators](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#team-of-collaborators)**
+* **[FAQ](https://github.com/vlomonaco/US-TransportationMode/blob/master/README.md#faq)**
 
 ## Dependecies
 In order to extecute the code in the repository you'll need to install the following dependencies:
@@ -258,3 +259,13 @@ This project has been developed at the University of Bologna with the effort of 
 * <a href="https://www.linkedin.com/in/simone-passaretti-397b23110/" target="_blank">Simone Passaretti</a> • Master student - email: simone.passaretti@studio.unibo.it
 ### Past collaborators
 * <a href="https://www.linkedin.com/in/claudiacarpineti/" target="_blank">Claudia Carpineti</a> • Master graduate student - email: claudia.carpineti@studio.unibo.it
+
+## FAQ
+
+> I would need to know the units of the timestamps of each sensor measurements. In your article, you mention that the sampling frequency is approximately 20Hz. However, you do not specify the units of these time stamps. Are they given in seconds or milliseconds?
+
+The timestamps are in milliseconds!
+
+> Can I assume that the units of the sensor data (accelerometer, gyroscope and magnetometer) are the standard ones (m/s^2, rad/s and uT, respectively)?
+
+Yes.
